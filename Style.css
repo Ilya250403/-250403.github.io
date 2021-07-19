@@ -1,0 +1,120 @@
+body{
+    font-family: arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #344051;
+}
+.logo{
+    padding-left: 200px;
+    color: white;
+    line-height: 60px;
+    font-size: 28px;
+    float: left;
+}
+.menu{
+    padding-left: 200px;
+    float: left;
+}
+ul li{
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 16px;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url("../img/%D0%9F%D0%B0%D1%80%D0%B5%D0%BD%D1%8C.png") 90% 100%/auto 95%  no-repeat  , url("../img/%D1%84%D0%BE%D0%BD.jpg") center/cover no-repeat;
+}
+.title_container{
+    float: left;
+    margin-top: 180px;
+    margin-left: 200px;
+    color: #2c384a;
+    text-align: center;
+}
+.title_container h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.title_container h4{
+    padding-top: 30px;
+    font-size: 16px;
+    color: #79818d;
+}
+.title_container input{
+    margin-right: 30px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    background: none;
+    color: #6d7682;
+    padding: 0px 16px;
+    margin-top: 50px;
+}
+.main1{
+    width: 100%;
+    height: 100%;
+    background:url("../img/line.png") 50% 160px no-repeat, url("../img/cercle.png") 50% 40%/auto 25% no-repeat, url("../img/bg1.jpg") no-repeat;
+    box-shadow: 0px -13px 22px 0px rgba(51, 50, 50, 0.62);
+}
+.main1 h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 23px;
+    color: #2c384a;
+    font-weight: bold;
+    padding-top: 100px;
+    
+}
+
+.text{
+    color: #3f495a;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-top: 270px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text input{
+    text-align: center;
+    color: #79818d;
+    height: 40px;
+    border: 2px #79818d solid;
+    border-radius: 5px;
+    background: url("../img/icon_download.png") 7% 50% no-repeat;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.main2{
+    width: 100%;
+    height: 100%;
+    background: url("../img/line.png") 50% 160px no-repeat,  url("../img/bg2.png")  no-repeat;  
+}
+.main2 h2{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 23px;
+    color: #2c384a;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.text2 ul_container{
+    float: left;
+    color: black;
+}
+ul li{
+    color: #3f495a;
+    display: inline-block;
+}
+ul li h3{
+    color: #cf7600;
+    font-size: 20px;
+    float: left;
+}
